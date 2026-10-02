@@ -18,7 +18,7 @@ Syrupjoe.com/
     travel-poster.png
     top-destinations-poster.png
     contracts-background.jpg
-    destinations/
+    popular destinations/
       bangkok.jpg
       cape-town.jpg
       dubai.jpg
@@ -29,6 +29,7 @@ Syrupjoe.com/
       paris.jpg
       santorini.jpg
       switzerland.jpg
+         
 
 Do NOT create an extra folder level such as:
 Syrupjoe.com/SyrupJoe_Nig_Ltd_Upgraded_Website/index.html
