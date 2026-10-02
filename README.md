@@ -1,30 +1,74 @@
-[README.md.txt](https://github.com/user-attachments/files/32974035/README.md.txt)
-SYRUP JOE NIG. LTD — WEBSITE UPDATE
+SYRUP JOE NIG. LTD — UPGRADED WEBSITE
+=========================================
 
-This package keeps the existing Syrup Joe website structure and visual standard while using the latest supplied website image as the source for the hero background imagery.
+This package contains a replacement index.html for the Syrup Joe website.
+The homepage is self-contained: its CSS and JavaScript are included in index.html.
+The existing local image assets have been preserved.
 
-Updates:
-- Replaced the previous hero background visual with a crop from the supplied redesign image.
-- Removed the two human-photo panels from the website.
-- Added General Contracts to navigation, booking tabs, services and offers.
-- Added construction-focused imagery for the contracting/Why section.
-- Preserved the navy, white and gold corporate travel style.
-- Preserved Client Login, FAQs, hotels, destinations, offers and contact sections.
-- Preserved confirmed contact details and visa disclaimer.
+IMPORTANT GITHUB STRUCTURE
+--------------------------
+Upload the CONTENTS of this folder to the ROOT of the GitHub repository:
 
-Brand details:
-Syrup Joe Nig. Ltd
-Travel & Tours
-Abuja, FCT, Nigeria
-+234 706 634 0092
-+234 909 759 0945
-Syrupjoe30@gmail.com
+Syrupjoe.com/
+  index.html
+  CNAME
+  assets/
+    logo-emblem.png
+    travel-banner.png
+    travel-poster.png
+    top-destinations-poster.png
+    contracts-background.jpg
+    destinations/
+      bangkok.jpg
+      cape-town.jpg
+      dubai.jpg
+      istanbul.jpg
+      london.jpg
+      maldives.jpg
+      new-york.jpg
+      paris.jpg
+      santorini.jpg
+      switzerland.jpg
+
+Do NOT create an extra folder level such as:
+Syrupjoe.com/SyrupJoe_Nig_Ltd_Upgraded_Website/index.html
+
+GITHUB PAGES
+------------
+Repository: SyrupjoeTravels/Syrupjoe.com
+Settings -> Pages:
+Source: Deploy from a branch
+Branch: main
+Folder: / (root)
+
+Custom domain:
 syrupjoe.com
 
-Note: Live booking, authentication, hotel inventory and contract-management integrations require backend/provider connections.
+The CNAME file in this package contains:
+syrupjoe.com
 
-DESTINATION UPDATE
-- Added the supplied Top Destinations artwork as the destination source/reference.
-- Added ten destination cards using the cities/countries shown in the artwork.
-- Destination labels pair each city with its country.
-- Featured destinations: Dubai — United Arab Emirates; London — United Kingdom; Paris — France; Istanbul — Türkiye; Malé — Maldives; New York City — United States; Zurich — Switzerland; Bangkok — Thailand; Cape Town — South Africa; Santorini — Greece.
+HOSTINGER DNS
+-------------
+Because the domain is already configured for GitHub Pages, do not reset DNS just to upload this website.
+
+After committing the new files:
+1. Wait for GitHub Pages to deploy.
+2. Open https://syrupjoe.com
+3. Use Ctrl+F5 or a private/incognito window if the browser shows an older cached version.
+
+CONTACT DETAILS USED
+--------------------
+Abuja, FCT, Nigeria
+Phone / WhatsApp: +234 7066340092
+Email: syrupjoe30@gmail.com
+Website: https://syrupjoe.com/
+
+VISA DISCLAIMER
+---------------
+Visa approval is not guaranteed. Final decisions are made solely by the relevant
+embassy, consulate or immigration authority.
+
+NOTES
+-----
+This upgrade intentionally uses the existing image assets from the uploaded website.
+No external image hosting is required for the main page images.
